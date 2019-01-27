@@ -15,7 +15,7 @@ text-align: center;
   color:blue;
 }
 .appcontainer{
-background-image: url("../../assets/images/background.jpg");
+background-image: url("../../assets/images/background3.jpg");
 background-size: cover;
 
 
@@ -28,10 +28,10 @@ display: inline-block;
   width:350px;
   border-radius: 0px;
 text-align: center;
-font-family:myFirstFont;
+font-family:mySecondFont;
   color:#2eede2;
   margin-bottom: 20px;
-  transform: rotate(-8deg);
+
 }
 .header:hover {
   color: #195562;
@@ -64,14 +64,18 @@ cursor:pointer;
 }
 .weathertemperature {
   text-align: center;
+
   display: inline-block;
   border-radius: 100%;
-  border: 3px solid;
+  border: 2px solid;
   width:80px;
+  height: 80px;
 
-background-color: #195562;
-    color:#2eede2;
+
+
+    color:#fbfceb;
     font-size: 30px;
+    font-family:mySecondFont;
     padding-top:15px
     padding
 
@@ -83,13 +87,12 @@ background-color: #195562;
 vertical-align: middle;
   display: inline-block;
   border-radius: 100%;
-  border: 3px solid;
-  width:60px;
-  height: 60px;
-  padding-top: 20px;
+  border: 2px solid;
+  width:80px;
+  height: 80px;
 
-background-color: #195562;
-    color:#2eede2;
+
+    color:#fbfceb;
     font-size: 30px;
 }
 
@@ -97,7 +100,7 @@ background-color: #195562;
 
   text-align: center;
 
-    color:#2eede2;
+    color:#fbfceb;
     font-size: 30px;
 }
 
@@ -105,7 +108,7 @@ background-color: #195562;
 {
 text-decoration: none;
   text-align: center;
-    color: #fecb00;
+    color: #fbfceb;
     font-size: 30px;
 }
 
@@ -113,7 +116,7 @@ text-decoration: none;
 {
 text-decoration: none;
   text-align: center;
-    color: #fecb00;
+    color: #fbfceb;
     font-size: 30px;
 }
 
