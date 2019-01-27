@@ -62,18 +62,11 @@ transition: 1s;
 cursor:pointer;
 
 }
+
 .weathertemperature {
   text-align: center;
-
+  color:#fbfceb;
   display: inline-block;
-  border-radius: 100%;
-  border: 2px solid;
-  width:80px;
-  height: 80px;
-
-
-
-    color:#fbfceb;
     font-size: 30px;
     font-family:mySecondFont;
     padding-top:15px
@@ -86,12 +79,7 @@ cursor:pointer;
   text-align: center;
 vertical-align: middle;
   display: inline-block;
-  border-radius: 100%;
-  border: 2px solid;
-  width:80px;
-  height: 80px;
-
-
+  font-family:mySecondFont;
     color:#fbfceb;
     font-size: 30px;
 }
@@ -99,7 +87,7 @@ vertical-align: middle;
 .weatherdescription{
 
   text-align: center;
-
+font-family:mySecondFont;
     color:#fbfceb;
     font-size: 30px;
 }
@@ -108,6 +96,7 @@ vertical-align: middle;
 {
 text-decoration: none;
   text-align: center;
+  font-family:mySecondFont;
     color: #fbfceb;
     font-size: 30px;
 }
@@ -115,6 +104,7 @@ text-decoration: none;
 .weathermain
 {
 text-decoration: none;
+font-family:mySecondFont;
   text-align: center;
     color: #fbfceb;
     font-size: 30px;
@@ -126,8 +116,8 @@ text-decoration: none;
 text-decoration: none;
   text-align: center;
     color: #195562;
-
-    font-size: 30px;
+font-family:mySecondFont;
+    font-size: 25px;
 }
 
 .image
