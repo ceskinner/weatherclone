@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: mySecondFont;
-  src: url("../../assets/fonts/moon_Light.otf");
+  src: url("../../assets/fonts/moon_light.otf");
 }
 p {
   border: 3px dashed purple;
