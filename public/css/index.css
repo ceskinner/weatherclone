@@ -1,0 +1,135 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("../../assets/fonts/moon_bold.otf");
+}
+@font-face {
+  font-family: mySecondFont;
+  src: url("../../assets/fonts/moon_Light.otf");
+}
+p {
+  border: 3px dashed purple;
+
+  width:3px;
+  border-radius: 300px;
+text-align: center;
+  color:blue;
+}
+.appcontainer{
+background-image: url("../../assets/images/background.jpg");
+background-size: cover;
+
+
+}
+
+.header{
+  border: 3px solid
+  background-color: grey;
+display: inline-block;
+  width:350px;
+  border-radius: 0px;
+text-align: center;
+font-family:myFirstFont;
+  color:#2eede2;
+  margin-bottom: 20px;
+  transform: rotate(-8deg);
+}
+.header:hover {
+  color: #195562;
+  transition: 1s;
+  cursor:pointer;
+
+}
+
+
+
+.button {
+  border: 3px solid black;
+  background-color: #2eede2;
+display: inline-block;
+  width:140px;
+  padding:5px;
+  font-size:15px;
+  font-family:mySecondFont;
+
+  color: grey;
+  border-radius: 30px;
+}
+
+.button:hover {
+color: #2eede2;
+background-color: grey;
+transition: 1s;
+cursor:pointer;
+
+}
+.weathertemperature {
+  text-align: center;
+  display: inline-block;
+  border-radius: 100%;
+  border: 3px solid;
+  width:80px;
+
+background-color: #195562;
+    color:#2eede2;
+    font-size: 30px;
+    padding-top:15px
+    padding
+
+}
+
+.weatherhumidity {
+
+  text-align: center;
+vertical-align: middle;
+  display: inline-block;
+  border-radius: 100%;
+  border: 3px solid;
+  width:60px;
+  height: 60px;
+  padding-top: 20px;
+
+background-color: #195562;
+    color:#2eede2;
+    font-size: 30px;
+}
+
+.weatherdescription{
+
+  text-align: center;
+
+    color:#2eede2;
+    font-size: 30px;
+}
+
+.link
+{
+text-decoration: none;
+  text-align: center;
+    color: #fecb00;
+    font-size: 30px;
+}
+
+.weathermain
+{
+text-decoration: none;
+  text-align: center;
+    color: #fecb00;
+    font-size: 30px;
+}
+
+
+.cityInput
+{
+text-decoration: none;
+  text-align: center;
+    color: #195562;
+
+    font-size: 30px;
+}
+
+.image
+{
+background-color: rgba(255,255,255,);
+
+
+}
