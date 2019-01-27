@@ -8,14 +8,15 @@ var button = document.getElementById('button')
 var cityInput = document.getElementById('cityInput')
 var inputcontainer = document.getElementById('inputcontainer')
 var weatherimage = document.getElementById('image')
+var appcontainer = document.getElementById('appcontainer')
 
 cityInput.addEventListener('keydown', function(e){
   if (e.keyCode === 13){
-    makeRequest("I love Cocaine");
+    makeRequest("Enter");
     }
    })
 button.addEventListener('click', function(){
-  makeRequest("I Hate Cocaine");
+  makeRequest("Click");
 
   })
 
@@ -24,8 +25,8 @@ function toTitleCase(str)
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 
-function makeRequest(example) {
-  console.log(example);
+function makeRequest(type) {
+  console.log(type);
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=" +cityInput.value +"&APPID=e328f5a07998d9a414702875ca2100bc", true);
   xhr.onload = function (e){
